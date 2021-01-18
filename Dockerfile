@@ -1,5 +1,4 @@
-  
-FROM ubuntu:latest
+FROM ubuntu:18.04
 LABEL maintainer="Roman Voitovych, roman.voitovych@pollub.edu.pl"
 RUN apt-get update && apt-get upgrade && apt-get install -y apache2
 EXPOSE 80
